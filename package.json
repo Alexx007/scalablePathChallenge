@@ -1,0 +1,14 @@
+{
+  "name": "scalablepathchallenge",
+  "version": "1.0.0",
+  "description": "Descripción del Proyecto El objetivo principal fue construir desde cero un framework de automatización de pruebas E2E utilizando buenas prácticas, patrones de diseño (como Page Object Model), Mock testing, y configuración de CI",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.1"
+  }
+}
