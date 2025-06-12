@@ -6,7 +6,6 @@ Flujo Automatizado Cree dos test dentro del archivo 'scalablePath.spec.ts' uno q
 ---
 
 # Funciones valdiadas: 
-
 ---
 
 Requisitos para ejecutar Node.js npm npm install -g typescript npx playwright test
