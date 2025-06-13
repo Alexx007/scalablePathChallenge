@@ -16,7 +16,12 @@ test.describe('Scable Live coding Challenge', async() =>{
         await expect( page.locator('.inventory_list')).toBeVisible();
         await productPage.selectProduct(PRODUCT_NAME);
         await productPage.validateProductAdded(PRODUCT_NAME);
-        
+      
+        test('Mock testing', async ({page}) => {
+            const loginPage = new LoginPage(page);
+            await loginPage.Login('standard_user','secret_sauce');
+
+        })
     
     })
 })
