@@ -8,9 +8,12 @@ Flujo Automatizado Cree dos test dentro del archivo 'scalablePathChallenge.spec.
 # Funciones valdiadas: 
 ---
 
-# Requisitos para ejecutar: 
--Node.js npm
--npm install -g typescript 
--npx playwright test
+
+## Requisitos para ejecutar
+
+- **Node.js** y **npm** instalados
+- Instalar TypeScript globalmente:  
+  ```sh
+  npm install -g typescript
 
 Codigo para ejecutar: npx playwright test tests/e2e/scalablePathChallenge.spec.ts --project=chromium
